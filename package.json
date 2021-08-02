@@ -1,0 +1,23 @@
+{
+  "name": "google-homepage",
+  "version": "1.0.0",
+  "description": "Replica of google home page",
+  "main": "index.js",
+  "scripts": {
+    "start": "lite-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VivianDoreen/google-homepage.git"
+  },
+  "author": "Vivian Doreen Nabulo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/VivianDoreen/google-homepage/issues"
+  },
+  "homepage": "https://github.com/VivianDoreen/google-homepage#readme",
+  "dependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
