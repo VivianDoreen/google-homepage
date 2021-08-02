@@ -1,7 +1,31 @@
+@media screen and (max-width:768px) {
+  nav{
+    width: 100%;
+  }
+
+  #search-main{
+    
+    border: 1px solid blue;
+    width: 90% !important;
+  }
+  .google-buttons{
+    width: 60%;
+    min-width: 80%
+  }
+  figure{
+    padding: 0px;
+  }
+
+  figure img{
+    width:200px;
+    height: 70px;
+  }
+}
 html {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
+  min-height: 100%;
 }
 
 *, *:before, *:after {
@@ -51,8 +75,8 @@ align-items: center;
 
 #search-main{
 border: 1px solid #DEE1E5;
-width: 582px;
-height: 44px;
+width: 41%;
+height: 46px;
 border-radius: 50px;
 padding: 3px 8px 0px 14px;
 margin: 0px auto;
